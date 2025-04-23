@@ -36,7 +36,7 @@ export default defineNuxtPlugin(() => {
         script: [
           {
             id: 'CookieBot',
-            src: `https://consent.cookiebot.com/uc.js?cbid=${cbid}`,
+            src: `https://consent.cookiebot.eu/uc.js?cbid=${cbid}`,
             async: true,
             type: 'text/javascript',
             tagPriority: 5,
